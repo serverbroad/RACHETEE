@@ -1,10 +1,6 @@
 # MOBILE APP
 
-## Usage
-
-### PhoneGap CLI
-
-This is the repository of the mobile app, get this App on
+## This is the repository of the mobile app, get this App on
 
 Google Play Store,<br>
 Amazon App Store for Blackberry
