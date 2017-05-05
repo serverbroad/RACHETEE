@@ -14,7 +14,7 @@ Amazon App Store for Blackberry
 
 ### About us
 
-Okiki Continental’s dedicated IT dev & support team truly cares about Advocate. Our focus is on building a true partnership, and we go the extra mile to make sure that happens.” We always make sure that our technology services are delivered according to any business or enterprise requirements. Services range from basic Internet connectivity to enterprise application (EA) software. Technology service providers include Internet service providers (ISP), application service providers (ASP), cloud providers and developers.<br>
+Okiki Continental’s dedicated IT dev & support team truly cares about Advocate. Our focus is on building a true partnership, and we go the extra mile to make sure that happens.” We always make sure that our technology services are delivered according to any business or enterprise requirements. Services range from basic Internet connectivity to enterprise application (EA) software. Technology service providers include Internet service providers (ISP), application service providers (ASP), cloud providers and developers.<br><br>
 Our Technology services include:
 ### Software development, integration and maintenance.
 ### Hardware.
