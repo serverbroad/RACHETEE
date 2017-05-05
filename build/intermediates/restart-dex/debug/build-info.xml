@@ -5,7 +5,7 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="280322162344342"
+    timestamp="286505097579029"
     token="-6916175177273427130"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -27,7 +27,7 @@
         type="MAIN" />
 
     <build
-        timestamp="280322162344342"
+        timestamp="286505097579029"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/outputs/apk/android-debug.apk"
