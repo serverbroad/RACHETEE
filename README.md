@@ -4,13 +4,13 @@
 
 ### PhoneGap CLI
 
-This is the HTML carbon copy of the mobile application, get this App on
+This is the repository of the mobile app, get this App on
 
-Google Play Store,
+Google Play Store,<br>
 Amazon App Store for Blackberry
 
 
-### Desktop
+### ___________________
 
 ### About us
 
