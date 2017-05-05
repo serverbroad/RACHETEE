@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/res/xml/config.xml"
+    },
+    {
+        "merged": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/res/xml/provider_paths.xml"
+    }
+]

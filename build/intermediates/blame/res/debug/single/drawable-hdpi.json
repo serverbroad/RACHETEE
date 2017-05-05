@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_previous_item.png",
+        "source": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/res/drawable-hdpi/ic_action_previous_item.png"
+    },
+    {
+        "merged": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_next_item.png",
+        "source": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/res/drawable-hdpi/ic_action_next_item.png"
+    },
+    {
+        "merged": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_remove.png",
+        "source": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/res/drawable-hdpi/ic_action_remove.png"
+    }
+]

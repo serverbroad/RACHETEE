@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="16"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="280322162344342"
+    token="-6916175177273427130"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/outputs/apk/android-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="280322162344342"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/outputs/apk/android-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

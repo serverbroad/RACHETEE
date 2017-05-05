@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="images/ico.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="apple-touch-startup-image-640x1096.html">
+    <title>RACHETEE</title>
+    <link rel="stylesheet" href="css/framework7.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/colors/magenta.css">
+    <link type="text/css" rel="stylesheet" href="css/swipebox.css" />
+    <link type="text/css" rel="stylesheet" href="css/animations.css" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
+</head>
+
+<body id="mobile_wrap">
+<div class="pages">
+    <div data-page="projects" class="page no-toolbar no-navbar">
+        <div class="page-content">
+            <div class="navbarpages">
+                <div class="nav_left_logo"><a href="index-2.html"><img src="images/unnamed.png" width="35" height="35" alt="" title="" /></a></div>
+                <div class="nav_right_button"><a href="#"><img src="images/unnamed.png" width="35" height="35" alt="" title="" /></a></div>
+            </div>
+            <div id="pages_maincontent">
+                <div class="page_content">
+                    <br>
+                    <div align="center">
+                        <img src="images/dd.png" alt="logo" height="70" width="200"></img>
+                    </div>
+                    <hr />
+                    <p style="text-align: center;"><span style="color:#000000;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:15px;">A la fin du compte a rebours...</span></span></p>
+                    <div align="center">
+                        <h3>
+                            <script type="text/javascript">
+//###################################################################
+// Author: ricocheting.com
+// Version: v3.1
+// Date: 2017-01-03
+// Description: displays the amount of time until the "dateFuture" entered below.
+
+var CDown = function() {
+	this.state=0;// if initialized
+	this.counts=[];// array holding countdown date objects and id to print to {d:new Date(2013,11,18,18,54,36), id:"countbox1"}
+	this.interval=null;// setInterval object
+}
+
+CDown.prototype = {
+	init: function(){
+		this.state=1;
+		var self=this;
+		this.interval=window.setInterval(function(){self.tick();}, 1000);
+	},
+	add: function(date,id){
+		this.counts.push({d:date,id:id});
+		this.tick();
+		if(this.state==0) this.init();
+	},
+   expire: function(idxs){
+      for(var x in idxs) {
+         this.display(this.counts[idxs[x]], "<a href='dd-week4.html' class='button-css'>CLIQUEZ POUR ACCEDER<br>CLICK TO ACCESS</a>");
+         this.counts.splice(idxs[x], 1);
+      }
+   },
+	format: function(r){
+		var pre='',post='',divide=', ',
+			out="";
+		if(r.d != 0){out += pre+r.d +" "+((r.d==1)?"day":"days")+post+divide;}
+		if(r.h != 0){out += pre+r.h +" "+((r.h==1)?"hour":"hours")+post+divide;}
+		out += pre+r.m +" "+((r.m==1)?"min":"mins")+post+divide;
+		out += pre+r.s +" "+((r.s==1)?"sec":"secs")+post+divide;
+
+		return out.substr(0,out.length-divide.length);
+	},
+	math: function(work){
+		var	y=w=d=h=m=s=ms=0;
+
+		ms=(""+((work%1000)+1000)).substr(1,3);
+		work=Math.floor(work/1000);//kill the "milliseconds" so just secs
+
+		y=Math.floor(work/31536000);//years (no leapyear support)
+		w=Math.floor(work/604800);//weeks
+		d=Math.floor(work/86400);//days
+		work=work%86400;
+
+		h=Math.floor(work/3600);//hours
+		work=work%3600;
+
+		m=Math.floor(work/60);//minutes
+		work=work%60;
+
+		s=Math.floor(work);//seconds
+
+		return {y:y,w:w,d:d,h:h,m:m,s:s,ms:ms};
+	},
+	tick: function(){
+		var now=(new Date()).getTime(),
+			expired=[],cnt=0,amount=0;
+
+		if(this.counts)
+		for(var idx=0,n=this.counts.length; idx<n; ++idx){
+			cnt=this.counts[idx];
+			amount=cnt.d.getTime()-now;//calc milliseconds between dates
+
+			// if time is already past
+			if(amount<0){
+				expired.push(idx);
+			}
+			// date is still good
+			else{
+				this.display(cnt, this.format(this.math(amount)));
+			}
+		}
+
+		// deal with any expired
+		if(expired.length>0) this.expire(expired);
+
+		// if no active counts, stop updating
+		if(this.counts.length==0) window.clearTimeout(this.interval);
+
+	},
+	display: function(cnt,msg){
+		document.getElementById(cnt.id).innerHTML=msg;
+	}
+};
+
+window.onload=function(){
+	var cdown = new CDown();
+
+	cdown.add(new Date(2017,4,23,18,00,00), "countbox1");
+};
+</script>
+                            <div id="countbox1"></div>
+                        </h3>
+                    </div>
+                    <p style="text-align: center;"><span style="color:#000000;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:15px;">At countdown ending...</span></span></p>
+                    <hr/>
+                    <div class="contact_info">
+                        <br>
+                        <b>Email :</b> <a href="mailto:rccgtlwciv@gmail.com?Subject=Bible Study's Questions" class="external">rccgtlwciv@gmail.com</a><br><b>Site Web :</b> http://www.rccgwc2.org
+                        </p>
+                    </div>
+                    <div class="call_button"><a href="tel:+22540070776" class="external">Allo Pasteur!</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
