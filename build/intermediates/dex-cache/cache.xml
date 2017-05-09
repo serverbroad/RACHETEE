@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a52565381892eca8225ffee3cf7950e4818597ab">
-        <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/instant-run-bootstrap_5f08f9f4d280da3cf2c0943f56279bb5b3524bb9.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -27,15 +18,6 @@
         revision="25.0.2"
         sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
         <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_20face990a90ff14c916646fcb123c1e413f79d9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94bab5f82e9d390c7c07951746149f5d8f60451f">
-        <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/instant-run_9a832d5019149d9c15065f2a98bdd7e72852f25b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,21 +48,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
-        <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.2.1_420c26cdb534a8bcb1d75137a705df4c6f75cbc2.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
         <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-10.2.1_0af5c0e0353061f5947a2442ff0f459bef6d12ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.2.1_420c26cdb534a8bcb1d75137a705df4c6f75cbc2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -255,6 +237,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="afe8eb4906b94df000e2b3714c864ec42d4e4ea6">
+        <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_5a19d1fedd1cf54db19416a99c711af63450e057.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -300,21 +291,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
-        <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-10.2.1_54246198b0afb043d0b60b1343c06ea6867213af.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="888983f51cf34f57a93ff16832552f2f15937212">
         <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.2.1_d942e7eb9d6744ea94cf43e1a5fbd377b17343f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-10.2.1_54246198b0afb043d0b60b1343c06ea6867213af.jar" />
     </item>
     <item
         is-multidex="false"
@@ -327,21 +318,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
-        <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-10.2.1_0af5c0e0353061f5947a2442ff0f459bef6d12ec.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
         <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_5303dcdf00512cbc906e9261469236b7121eff22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-10.2.1_0af5c0e0353061f5947a2442ff0f459bef6d12ec.jar" />
     </item>
     <item
         is-multidex="false"
