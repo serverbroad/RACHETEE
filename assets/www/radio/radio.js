@@ -117,7 +117,7 @@ var radio = new Radio([
   {
     freq: 'RADIO RACHETEE',
     title: "Abidjan",
-    src: ['http://87.117.228.65:14696/;playlist-mp3', 'http://87.117.228.65:14696/;playlist-aac'],
+    src: ['http://87.117.228.65:25784/;playlist-mp3', 'http://87.117.228.65:25784/;playlist-aac'],
     howl: null
   },
   {
