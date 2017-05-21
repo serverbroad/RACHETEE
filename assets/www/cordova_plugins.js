@@ -34,26 +34,10 @@ module.exports = [
     },
     {
         "id": "cordova-plugin-camera.CameraPopoverHandle",
-        "file": "plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
+        "file": "plugins/cordova-plugin-camera/www/CameraPopoverHandle.js",
         "pluginId": "cordova-plugin-camera",
         "clobbers": [
             "CameraPopoverHandle"
-        ]
-    },
-    {
-        "id": "cordova-plugin-console.console",
-        "file": "plugins/cordova-plugin-console/www/console-via-logger.js",
-        "pluginId": "cordova-plugin-console",
-        "clobbers": [
-            "console"
-        ]
-    },
-    {
-        "id": "cordova-plugin-console.logger",
-        "file": "plugins/cordova-plugin-console/www/logger.js",
-        "pluginId": "cordova-plugin-console",
-        "clobbers": [
-            "cordova.logger"
         ]
     },
     {
@@ -134,22 +118,6 @@ module.exports = [
         ]
     },
     {
-        "id": "cordova-plugin-contacts.contacts-ios",
-        "file": "plugins/cordova-plugin-contacts/www/ios/contacts.js",
-        "pluginId": "cordova-plugin-contacts",
-        "merges": [
-            "navigator.contacts"
-        ]
-    },
-    {
-        "id": "cordova-plugin-contacts.Contact-iOS",
-        "file": "plugins/cordova-plugin-contacts/www/ios/Contact.js",
-        "pluginId": "cordova-plugin-contacts",
-        "merges": [
-            "Contact"
-        ]
-    },
-    {
         "id": "cordova-plugin-device.device",
         "file": "plugins/cordova-plugin-device/www/device.js",
         "pluginId": "cordova-plugin-device",
@@ -200,6 +168,14 @@ module.exports = [
     {
         "id": "cordova-plugin-dialogs.notification",
         "file": "plugins/cordova-plugin-dialogs/www/notification.js",
+        "pluginId": "cordova-plugin-dialogs",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
+        "id": "cordova-plugin-dialogs.notification_android",
+        "file": "plugins/cordova-plugin-dialogs/www/android/notification.js",
         "pluginId": "cordova-plugin-dialogs",
         "merges": [
             "navigator.notification"
@@ -356,8 +332,8 @@ module.exports = [
         "runs": true
     },
     {
-        "id": "cordova-plugin-file.iosFileSystem",
-        "file": "plugins/cordova-plugin-file/www/ios/FileSystem.js",
+        "id": "cordova-plugin-file.androidFileSystem",
+        "file": "plugins/cordova-plugin-file/www/android/FileSystem.js",
         "pluginId": "cordova-plugin-file",
         "merges": [
             "FileSystem"
@@ -395,36 +371,18 @@ module.exports = [
         ]
     },
     {
-        "id": "cordova-plugin-geolocation.Coordinates",
-        "file": "plugins/cordova-plugin-geolocation/www/Coordinates.js",
+        "id": "cordova-plugin-geolocation.geolocation",
+        "file": "plugins/cordova-plugin-geolocation/www/android/geolocation.js",
         "pluginId": "cordova-plugin-geolocation",
         "clobbers": [
-            "Coordinates"
+            "navigator.geolocation"
         ]
     },
     {
         "id": "cordova-plugin-geolocation.PositionError",
         "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
         "pluginId": "cordova-plugin-geolocation",
-        "clobbers": [
-            "PositionError"
-        ]
-    },
-    {
-        "id": "cordova-plugin-geolocation.Position",
-        "file": "plugins/cordova-plugin-geolocation/www/Position.js",
-        "pluginId": "cordova-plugin-geolocation",
-        "clobbers": [
-            "Position"
-        ]
-    },
-    {
-        "id": "cordova-plugin-geolocation.geolocation",
-        "file": "plugins/cordova-plugin-geolocation/www/geolocation.js",
-        "pluginId": "cordova-plugin-geolocation",
-        "clobbers": [
-            "navigator.geolocation"
-        ]
+        "runs": true
     },
     {
         "id": "cordova-plugin-globalization.GlobalizationError",
@@ -528,6 +486,12 @@ module.exports = [
         "clobbers": [
             "navigator.device.capture"
         ]
+    },
+    {
+        "id": "cordova-plugin-media-capture.init",
+        "file": "plugins/cordova-plugin-media-capture/www/android/init.js",
+        "pluginId": "cordova-plugin-media-capture",
+        "runs": true
     },
     {
         "id": "cordova-plugin-network-information.network",
