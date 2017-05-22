@@ -21,7 +21,7 @@
     <div data-page="projects" class="page no-toolbar no-navbar">
         <div class="page-content">
             <div class="navbarpages">
-                <div class="nav_left_logo"><a href="index-2.html"><img src="images/homek.png" width="35" height="35" alt="" title="" /></a></div>
+                <div class="nav_left_logo"><a href="index-2.html"><img src="images/unnamed.png" width="35" height="35" alt="" title="" /></a></div>
                 <div class="nav_right_button"><a href="#"><img src="images/unnamed.png" width="35" height="35" alt="" title="" /></a></div>
             </div>
             <div id="pages_maincontent">
@@ -31,8 +31,7 @@
                         <img src="images/dd.png" alt="logo" height="70" width="200"></img>
                     </div>
                     <hr />
-                    <p style="text-align: center;"><span style="color:#000000;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:15px;">Cette Etude Biblique n&#39;est disponible que lorsque le compte &agrave; rebours est termin&eacute;...</span></span></p>
-                    <hr/>
+                    <p style="text-align: center;"><span style="color:#000000;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:15px;">A la fin du compte a rebours...</span></span></p>
                     <div align="center">
                         <h3>
                             <script type="text/javascript">
@@ -61,15 +60,15 @@ CDown.prototype = {
 	},
    expire: function(idxs){
       for(var x in idxs) {
-         this.display(this.counts[idxs[x]], "Cette Etude Biblique est dosormais Disponible <br>Digging Deep is now Available<br><br><a href='dd-week2.html' class='button-css'>CLIQUEZ POUR ACCEDER</a>");
+         this.display(this.counts[idxs[x]], "<a href='dd-week2.html' class='button-css'>CLIQUEZ POUR ACCEDER<br>CLICK TO ACCESS</a>");
          this.counts.splice(idxs[x], 1);
       }
    },
 	format: function(r){
 		var pre='',post='',divide=', ',
 			out="";
-		if(r.d != 0){out += pre+r.d +" "+((r.d==1)?"day":"days")+post+divide;}
-		if(r.h != 0){out += pre+r.h +" "+((r.h==1)?"hour":"hours")+post+divide;}
+		if(r.d != 0){out += pre+r.d +" "+((r.d==1)?"jour":"jours")+post+divide;}
+		if(r.h != 0){out += pre+r.h +" "+((r.h==1)?"heure":"heures")+post+divide;}
 		out += pre+r.m +" "+((r.m==1)?"min":"mins")+post+divide;
 		out += pre+r.s +" "+((r.s==1)?"sec":"secs")+post+divide;
 
@@ -136,17 +135,11 @@ window.onload=function(){
                             <div id="countbox1"></div>
                         </h3>
                     </div>
-                    <hr />
-                    <p style="text-align: center;"><span style="color:#000000;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:15px;">This Bible Study is available only when the countdown is over...</span></span></p>
+                    <p style="text-align: center;"><span style="color:#000000;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:15px;">At countdown ending...</span></span></p>
                     <hr/>
                     <div class="contact_info">
                         <br>
-                        <center>
-                            l'Eglise Chretienne Rachetee de Dieu<br>
-                            <b>SANCTUAIRE D'EAUX VIVANTES.</b><br>
-                        </center>
-                        <p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span class="s1"><b>Addresse :</b> Non loin du Carrefour de la Riviera 2, Route d&rsquo;Attoban, Cocody BP 6290 Abidjan 06 République de Cote dIvoire.<br>
-      <b>Phone :</b> +225 40-07-07-76<br><b>Email :</b> <a href="mailto:rccgtlwciv@gmail.com?Subject=Bible Study's Questions" class="external">rccgtlwciv@gmail.com</a><br><b>Site Web :</b> http://www.rccgwc2.org
+                        <b>Email :</b> <a href="mailto:rccgtlwciv@gmail.com?Subject=Bible Study's Questions" class="external">rccgtlwciv@gmail.com</a><br><b>Site Web :</b> http://www.rccgwc2.org
                         </p>
                     </div>
                     <div class="call_button"><a href="tel:+22540070776" class="external">Allo Pasteur!</a></div>
@@ -157,4 +150,3 @@ window.onload=function(){
 </div>
 </body>
 </html>
-
