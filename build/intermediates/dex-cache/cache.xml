@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b4e9dfa88622f1d13467e08d02d64498d61bc5a5">
+        sha1="8c419d675b04f0610fc679eee5cd05566a73d786">
         <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/instant-run-bootstrap_5f08f9f4d280da3cf2c0943f56279bb5b3524bb9.jar" />
     </item>
     <item
@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f5ada2277d27507284a5d907297e0fd504908258">
+        sha1="88bf5cd6a7f474d2517e4b95d2e0ea797d44743e">
         <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/instant-run_9a832d5019149d9c15065f2a98bdd7e72852f25b.jar" />
     </item>
     <item
@@ -192,21 +192,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
-        <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.1_0f165065fcb3c42cd2e1cc64a1fbab610ca4d9cb.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
         <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-10.2.1_e6e09698f8898b21bc22304be576c27adb9a9209.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.1_0f165065fcb3c42cd2e1cc64a1fbab610ca4d9cb.jar" />
     </item>
 
 </items>

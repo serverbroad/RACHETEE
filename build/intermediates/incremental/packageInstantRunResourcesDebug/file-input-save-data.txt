@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon May 22 17:56:04 GMT 2017
+#Tue May 23 14:49:43 GMT 2017
 210.set=ASSET
 282.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug/www/images/icons/white/user.png
 14.set=ASSET

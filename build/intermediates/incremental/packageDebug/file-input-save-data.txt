@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon May 22 18:01:59 GMT 2017
+#Tue May 23 14:54:12 GMT 2017
 210.set=ASSET
 282.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug/www/plugins/cordova-plugin-file/www/FileWriter.js
 14.set=ASSET
@@ -41,7 +41,7 @@
 319.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug/www/css/img/icons.png
 65.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug/www/images/load_posts_disabled.png
 61.base=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug
-217.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/ic_action_next_item.png
+217.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_disabled.xml
 304.set=ASSET
 40.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_icon_dark_focused.xml
 245.set=ASSET
@@ -83,7 +83,7 @@
 302.base=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug
 225.base=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug
 204.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug/www/plugins/cordova-plugin-contacts/www/ios/Contact.js
-127.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_dark_focused.xml
+127.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_icon_dark_normal.xml
 63.set=ASSET
 6.base=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug
 5.set=ANDROID_RESOURCE
@@ -132,7 +132,7 @@
 87.base=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug
 10.base=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_
 66.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug/www/images/icons/white/briefcase.png
-218.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_disabled.xml
+218.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/ic_action_next_item.png
 314.set=ASSET
 41.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug/www/images/icons/black/box.png
 255.set=ASSET
@@ -999,7 +999,7 @@ count=336
 224.base=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug
 190.set=ASSET
 203.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/assets/debug/www/images/icons/black/customer-service-5.png
-126.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_icon_dark_normal.xml
+126.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_dark_focused.xml
 53.set=ASSET
 5.base=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_
 332.file=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_light_focused.xml

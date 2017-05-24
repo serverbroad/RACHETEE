@@ -65,13 +65,12 @@
     <author email="helpdesk@okiki-continental.com" href="http://okiki-continental.com">
         Okiki Continental
     </author>
-    <content src="index.html" />
+    <content src="donate.html" />
     <icon src="/ico.png" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
     <access launch-external="yes" origin="mailto:*" />
     <allow-navigation href="http://*/*" />
-    <allow-navigation href="*://*.paypal.com/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
