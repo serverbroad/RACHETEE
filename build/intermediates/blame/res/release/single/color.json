@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.1/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

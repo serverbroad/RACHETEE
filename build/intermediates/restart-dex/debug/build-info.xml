@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
-    density="xhdpi"
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="23338078057446"
+    timestamp="32682661923862"
     token="-6916175177273427130"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="2795" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1751" />
+        duration="0" />
     <task
         name="verifier"
-        duration="168" />
+        duration="0" />
 
     <artifact
-        location="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/outputs/apk/android-debug.apk"
-        type="MAIN" />
+        location="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="23338078057446"
+        timestamp="27643702854812"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/outputs/apk/android-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="32682661923862"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

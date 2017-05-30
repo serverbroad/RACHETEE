@@ -65,7 +65,7 @@
     <author email="helpdesk@okiki-continental.com" href="http://okiki-continental.com">
         Okiki Continental
     </author>
-    <content src="donate.html" />
+    <content src="index.html" />
     <icon src="/ico.png" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
