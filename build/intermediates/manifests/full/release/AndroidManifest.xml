@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.okikicontinental.rachetee"
     android:hardwareAccelerated="true"
-    android:versionCode="20540"
-    android:versionName="2.9" >
+    android:versionCode="25577"
+    android:versionName="3.0" >
 
     <uses-sdk
         android:minSdkVersion="14"

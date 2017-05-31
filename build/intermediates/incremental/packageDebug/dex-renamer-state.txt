@@ -1,4 +1,4 @@
-#Mon May 29 16:29:25 GMT 2017
+#Tue May 30 16:43:53 GMT 2017
 base.0=/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5f08f9f4d280da3cf2c0943f56279bb5b3524bb9
 renamed.1=classes2.dex
 renamed.0=classes.dex

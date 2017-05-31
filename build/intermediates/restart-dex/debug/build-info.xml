@@ -5,9 +5,8 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="32682661923862"
-    token="-6916175177273427130"
-    verifier="COMPATIBLE" >
+    timestamp="116350905634434"
+    token="-6916175177273427130" >
 
     <task
         name="javac"
@@ -22,23 +21,20 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
-
     <build
-        timestamp="27643702854812"
+        timestamp="115353008897812"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/outputs/apk/android-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="32682661923862"
-        verifier="COMPATIBLE" >
+        timestamp="115684281666179"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Applications/AMPPS/www/Apps-Server/Clients-Projects/RACHETEE/platforms/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
             type="RESOURCES" />
     </build>
+    <build timestamp="116350905634434" />
 
 </instant-run>
