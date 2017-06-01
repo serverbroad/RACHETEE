@@ -2,8 +2,8 @@
 
 ## This is the repository of the mobile app, get this App on
 
-Google Play Store,<br>
-Amazon App Store for Blackberry
+App Store,<br>
+iTunes Store
 
 
 ### ___________________
